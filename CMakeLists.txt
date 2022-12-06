@@ -68,7 +68,7 @@ target_include_directories(${EXECUTABLE} PRIVATE ${include_path_DIRS})
 # Link builded library FreeRTOS Middleware    
 target_link_libraries(${EXECUTABLE} bsp 
                                     psp
-                                    comrv
+                                    #comrv
                                     #common
                                     FreeRTOS_source)  
 

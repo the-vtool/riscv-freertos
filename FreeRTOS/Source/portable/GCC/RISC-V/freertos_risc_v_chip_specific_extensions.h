@@ -58,6 +58,8 @@
 #define portasmHAS_MTIME                1
 #define portasmADDITIONAL_CONTEXT_SIZE  0
 
+#define portasmHANDLE_INTERRUPT pspExtIntHandler //Inserted by Zarko
+
 .macro portasmSAVE_ADDITIONAL_REGISTERS
     /* No additional registers to save, so this macro does nothing. */
     .endm

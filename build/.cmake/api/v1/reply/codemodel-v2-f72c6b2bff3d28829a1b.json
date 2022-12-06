@@ -1,0 +1,154 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "FreeRTOS/Source",
+					"jsonFile" : "directory-FreeRTOS.Source-Debug-f701cab2c1d30df67b97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "FreeRTOS/Source",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "framework-wd-riscv-sdk",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"jsonFile" : "directory-framework-wd-riscv-sdk-Debug-99cc9f4ee8ffae5941f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "framework-wd-riscv-sdk"
+				},
+				{
+					"build" : "framework-wd-riscv-sdk/board",
+					"jsonFile" : "directory-framework-wd-riscv-sdk.board-Debug-53c8fc11649ecbbd1950.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework-wd-riscv-sdk/board",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "framework-wd-riscv-sdk/psp",
+					"jsonFile" : "directory-framework-wd-riscv-sdk.psp-Debug-a9d89752ba4f4a4b89b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "framework-wd-riscv-sdk/psp",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "riscv_freertos",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "FreeRTOS_source::@80ea32bd3f2b31ad6dc1",
+					"jsonFile" : "target-FreeRTOS_source-Debug-e0d2d5b625cb41adfe87.json",
+					"name" : "FreeRTOS_source",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bsp::@b30b8ce7718681cc45a6",
+					"jsonFile" : "target-bsp-Debug-07f69b9adaed02b5bb5d.json",
+					"name" : "bsp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "psp::@199f727a16cd031371d0",
+					"jsonFile" : "target-psp-Debug-1e21cdd48c63c6a7229f.json",
+					"name" : "psp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "riscv_freertos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-riscv_freertos-Debug-95e90a1d5c5e91a7122a.json",
+					"name" : "riscv_freertos",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zarko/Desktop/projects/riscv-freertos/build",
+		"source" : "/home/zarko/Desktop/projects/riscv-freertos"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

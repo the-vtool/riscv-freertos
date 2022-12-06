@@ -9,9 +9,6 @@
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/board/CMakeFiles/edit_cache.dir
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/board/CMakeFiles/rebuild_cache.dir
-/home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/comrv/CMakeFiles/comrv.dir
-/home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/comrv/CMakeFiles/edit_cache.dir
-/home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/comrv/CMakeFiles/rebuild_cache.dir
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/psp/CMakeFiles/edit_cache.dir
 /home/zarko/Desktop/projects/riscv-freertos/build/framework-wd-riscv-sdk/psp/CMakeFiles/rebuild_cache.dir

@@ -407,3 +407,12 @@ D_PSP_TEXT_SECTION void pspExtInterruptIsr(void)
   fptrExtIntHandler();
 }
 
+/**
+ * @brief Added by Zarko for freertos port
+ * 
+ */
+
+D_PSP_TEXT_SECTION void pspExtIntHandler(u32_t cause)
+{
+  pspExtInterruptIsr();
+}

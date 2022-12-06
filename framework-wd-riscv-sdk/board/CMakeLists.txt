@@ -17,5 +17,6 @@ target_include_directories(bsp PUBLIC
     #this include is needed for cmsis because it depends on stm32h7xx_hal.h file
     # ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc
 ) 
-  
+
+target_link_libraries(bsp PUBLIC psp)
 # target_include_directories(cmsis PRIVATE  ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc)       
