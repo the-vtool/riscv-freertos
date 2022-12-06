@@ -1,0 +1,227 @@
+[
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/common/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/loc_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o CMakeFiles/riscv_freertos.dir/src/main.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/src/main.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/src/main.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/croutine.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/croutine.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/croutine.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/event_groups.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/event_groups.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/event_groups.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/list.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/list.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/list.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/queue.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/queue.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/queue.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/stream_buffer.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/stream_buffer.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/stream_buffer.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/tasks.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/tasks.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/tasks.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/timers.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/timers.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/timers.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_3.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_3.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_3.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_4.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_4.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_4.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_5.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_5.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/MemMang/heap_5.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/GCC/RISC-V/port.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V/port.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V/port.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/include -I/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V -g -o FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/GCC/RISC-V/portASM.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V/portASM.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/FreeRTOS/Source/portable/GCC/RISC-V/portASM.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -g -o framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/startup.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/startup.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/startup.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/bsp/bsp_external_interrupts.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_external_interrupts.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_external_interrupts.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/bsp/bsp_printf.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_printf.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_printf.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/bsp/bsp_timer.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_timer.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_timer.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/bsp/bsp_version.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_version.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/board/nexys_a7_eh1/bsp/bsp_version.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/loc_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/api_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/comrv/CMakeFiles/comrv.dir/comrv.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/comrv.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/comrv.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/loc_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/api_inc -g -o framework-wd-riscv-sdk/comrv/CMakeFiles/comrv.dir/comrv_entry.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/comrv_entry.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/comrv/comrv_entry.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_atomics_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_atomics_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_atomics_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_cache_control_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_cache_control_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_cache_control_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_cache_control_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_cache_control_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_cache_control_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_corr_err_cnt_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_corr_err_cnt_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_corr_err_cnt_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_corr_err_cnt_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_corr_err_cnt_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_corr_err_cnt_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_ext_interrupts_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_ext_interrupts_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_ext_interrupts_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_ext_interrupts_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_ext_interrupts_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_ext_interrupts_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_internal_mutex_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_internal_mutex_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_internal_mutex_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_interrupts_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_interrupts_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_interrupts_hifive1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_hifive1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_interrupts_hifive1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -g -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_int_vect_eh1.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_eh1.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_eh1.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -g -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_int_vect_eh2.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_eh2.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_eh2.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -g -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_int_vect_hifive1.S.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_hifive1.S",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_int_vect_hifive1.S"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_memory_utils.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_memory_utils.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_memory_utils.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_mutex_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_mutex_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_mutex_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_nmi_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_nmi_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_nmi_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_nmi_eh2.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_nmi_eh2.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_nmi_eh2.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_performance_monitor_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_performance_monitor_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_performance_monitor_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_pmc_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_pmc_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_pmc_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_timer_hifive1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_timer_hifive1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_timer_hifive1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_timers_eh1.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_timers_eh1.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_timers_eh1.c"
+},
+{
+  "directory": "/home/zarko/Desktop/projects/riscv-freertos/build",
+  "command": "/usr/bin/riscv64-unknown-elf-gcc -DDEBUG -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/api_inc -I/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/loc_inc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -mcmodel=medlow -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -g -std=gnu11 -o framework-wd-riscv-sdk/psp/CMakeFiles/psp.dir/psp_version.c.obj -c /home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_version.c",
+  "file": "/home/zarko/Desktop/projects/riscv-freertos/framework-wd-riscv-sdk/psp/psp_version.c"
+}
+]

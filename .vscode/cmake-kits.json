@@ -1,0 +1,10 @@
+[
+    {
+      "name": "GCC riscv64-unknown-elf - custom toolchain setup",
+      "compilers": {
+        "C": "riscv64-unknown-elf-gcc",
+        "CXX": "riscv64-unknown-elf-g++"
+      },
+      "toolchainFile": "riscv64-unknown-elf-gcc.cmake"
+    }
+]

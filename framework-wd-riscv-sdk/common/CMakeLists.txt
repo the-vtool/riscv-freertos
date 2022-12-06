@@ -11,11 +11,11 @@ cmake_minimum_required(VERSION 3.22)
 
 
 #it has to be public because stm32h7xx_hal_def.h depends on stm32h7xx.h
-target_include_directories(common PUBLIC   
-	${CMAKE_CURRENT_SOURCE_DIR}/api_inc
+#target_include_directories(common PUBLIC   
+#	${CMAKE_CURRENT_SOURCE_DIR}/api_inc
 #	${CMAKE_CURRENT_SOURCE_DIR}/Include
     #this include is needed for cmsis because it depends on stm32h7xx_hal.h file
     # ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc
-) 
+#) 
 
 # target_include_directories(cmsis PRIVATE  ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc)       

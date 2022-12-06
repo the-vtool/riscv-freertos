@@ -132,7 +132,7 @@
 #endif
 
 #ifndef configSUPPORT_DYNAMIC_ALLOCATION
-   #define configSUPPORT_DYNAMIC_ALLOCATION     0
+   #define configSUPPORT_DYNAMIC_ALLOCATION     1
 #endif
 
 #define configTOTAL_HEAP_SIZE                   11*1024

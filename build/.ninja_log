@@ -1,0 +1,16 @@
+# ninja log v5
+1	45	1670314607485392147	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/croutine.c.obj	772da91a4d7f4c44
+1	55	1670314607497392037	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/list.c.obj	89580f1156064fcd
+1	55	1670314607497392037	CMakeFiles/riscv_freertos.dir/src/main.c.obj	2d58c73b9bbfa461
+55	100	1670314607541391632	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_3.c.obj	5eee73fc3adf6282
+1	105	1670314607545391595	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/event_groups.c.obj	2238583799f4b058
+55	123	1670314607565391412	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_2.c.obj	e89e153a7d7f1343
+2	143	1670314607581391265	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/timers.c.obj	27b9aa5528cc8159
+2	150	1670314607589391191	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/stream_buffer.c.obj	fbda55b525efd30d
+46	157	1670314607593391154	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_1.c.obj	5dd59efc4f7594fc
+100	170	1670314607609391007	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_4.c.obj	1f4ab35af9ce9536
+150	171	1670314607613390970	framework-wd-riscv-sdk/board/CMakeFiles/bsp.dir/nexys_a7_eh1/startup.S.obj	edfe983c239338fc
+105	181	1670314607621390897	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/MemMang/heap_5.c.obj	aaaf6b6a14dc4823
+124	185	1670314607625390860	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/portable/GCC/RISC-V/port.c.obj	cae4159332c10e96
+2	208	1670314607649390640	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/queue.c.obj	9a9cded6ec596afd
+2	383	1670314607825389024	FreeRTOS/Source/CMakeFiles/FreeRTOS_source.dir/tasks.c.obj	83e1694629cd0f72

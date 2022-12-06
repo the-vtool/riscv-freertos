@@ -9,9 +9,13 @@ add_library(FreeRTOS_source STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/stream_buffer.c
     ${CMAKE_CURRENT_SOURCE_DIR}/tasks.c
     ${CMAKE_CURRENT_SOURCE_DIR}/timers.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/portable/MemMang/heap_1.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/portable/MemMang/heap_2.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/portable/MemMang/heap_3.c
     ${CMAKE_CURRENT_SOURCE_DIR}/portable/MemMang/heap_4.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/portable/MemMang/heap_5.c
     ${CMAKE_CURRENT_SOURCE_DIR}/portable/GCC/RISC-V/port.c
-    ${CMAKE_CURRENT_SOURCE_DIR}/portable/GCC/RISC-V/portASM.s
+    ${CMAKE_CURRENT_SOURCE_DIR}/portable/GCC/RISC-V/portASM.S
     
 
 )
@@ -26,6 +30,6 @@ target_include_directories(FreeRTOS_source PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/portable/GCC/RISC-V
     
 )
-
+ 
 # add_subdirectory(CMSIS_RTOS_V2)
 

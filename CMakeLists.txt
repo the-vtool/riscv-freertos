@@ -18,7 +18,7 @@ message("Build type: "              ${CMAKE_BUILD_TYPE})
 # 
 # Core project settings
 #
-project(STM32H7_blink_diode_template)     
+project(riscv_freertos)     
 enable_language(C CXX ASM)
  
 # list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")
@@ -32,24 +32,15 @@ set(EXECUTABLE                      ${CMAKE_PROJECT_NAME})
 #     
 set(sources_SRCS    
 # Put here your source files, one in each line, relative to CMakeLists.txt file location
-    ${PROJ_PATH}/Core/Src/main.c
-    ${PROJ_PATH}/Core/Src/stm32h7xx_hal_msp.c 
-    ${PROJ_PATH}/Core/Src/stm32h7xx_it.c  
-    ${PROJ_PATH}/Core/Src/syscalls.c  
-    ${PROJ_PATH}/Core/Src/sysmem.c 
-    ${PROJ_PATH}/Core/Src/myprintf.c
-    ${PROJ_PATH}/Core/Src/app_ethernet.c  
-    ${PROJ_PATH}/Core/Src/control.c
-    ${PROJ_PATH}/Core/Src/elf_parser.c
-    ${PROJ_PATH}/Core/Src/led.c
-    ${PROJ_PATH}/Core/Src/iperf_test.c
+    ${PROJ_PATH}/src/main.c
 )    
     
 #    
 # Include directories 
 #
 set(include_path_DIRS
-    ${PROJ_PATH}/Core/Inc
+    ${PROJ_PATH}/inc
+    ${PROJ_PATH}/framework-wd-riscv-sdk/common/api_inc
 
     # Put here your include dirs, one in each line, relative to CMakeLists.txt file location
 )
@@ -57,22 +48,16 @@ set(include_path_DIRS
 #  
 # Instruction from lwip library
 #
-set(LWIP_DIR ${PROJ_PATH}/lwip)      
+# set(LWIP_DIR ${PROJ_PATH}/lwip)      
  
 #
 # Adding subdirectories
 #
-add_subdirectory(Drivers)
 
-add_subdirectory(Middlewares/Third_Party/FreeRTOS/Source)
+add_subdirectory(FreeRTOS/Source)
 
-#
-# Instruction from lwip librarty
-#
-add_subdirectory(lwip) 
+add_subdirectory(framework-wd-riscv-sdk) 
  
-# 
-add_subdirectory(ethInterface) 
 
 # Executable files 
 add_executable(${EXECUTABLE} ${sources_SRCS})
@@ -81,8 +66,11 @@ add_executable(${EXECUTABLE} ${sources_SRCS})
 target_include_directories(${EXECUTABLE} PRIVATE ${include_path_DIRS})
 
 # Link builded library FreeRTOS Middleware    
-target_link_libraries(${EXECUTABLE} cmsis_os2 
-                                    ethernetif)  
+target_link_libraries(${EXECUTABLE} bsp 
+                                    psp
+                                    comrv
+                                    #common
+                                    FreeRTOS_source)  
 
 
 # Execute post-build to print size
