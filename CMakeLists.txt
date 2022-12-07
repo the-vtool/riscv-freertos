@@ -18,7 +18,7 @@ message("Build type: "              ${CMAKE_BUILD_TYPE})
 # 
 # Core project settings
 #
-project(riscv_freertos)     
+project(riscv_freertos)        
 enable_language(C CXX ASM)
  
 # list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}")

@@ -48,7 +48,7 @@ SECTIONS
 {
   __stack_size = DEFINED(__stack_size) ? __stack_size : 4K;
   /* __comrv_cache_alignment_size defines the alinment size of the start cache area */
-  __comrv_align_size = __comrv_cache_size != 0 ? __comrv_cache_alignment_size : 0;
+  /*__comrv_align_size = __comrv_cache_size != 0 ? __comrv_cache_alignment_size : 0; */
 
   .text.init :
   {
@@ -167,12 +167,12 @@ SECTIONS
   
   /* this area is used for loading and executing the comrv 
      overlay groups */
-  .overlay_sec ALIGN(__comrv_align_size) :
+  /*.overlay_sec ALIGN(__comrv_align_size) :
   {
     __OVERLAY_CACHE_START__ = . ;
     . = __comrv_cache_size; 
     __OVERLAY_CACHE_END__ = . ;
-  } > ram : ram_load
+  } > ram : ram_load */
 
   /* this is the location of all comrv overlay groups.
      after linking, we'll use objcopy utility and copy

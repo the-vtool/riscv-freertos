@@ -1,5 +1,5 @@
-set(CMAKE_CXX_COMPILER "/usr/bin/riscv64-unknown-elf-g++")
-set(CMAKE_CXX_COMPILER_ARG1 "-fdata-sections -ffunction-sections -Wl,--gc-sections  -fno-rtti -fno-exceptions -fno-threadsafe-statics")
+set(CMAKE_CXX_COMPILER "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-g++")
+set(CMAKE_CXX_COMPILER_ARG1 "-march=rv32imac -mabi=ilp32 -fdata-sections -ffunction-sections -Wl,--gc-sections  -fno-rtti -fno-exceptions -fno-threadsafe-statics")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.2.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
@@ -22,11 +22,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/usr/bin/riscv64-unknown-elf-ar")
-set(CMAKE_CXX_COMPILER_AR "/usr/bin/riscv64-unknown-elf-gcc-ar")
-set(CMAKE_RANLIB "/usr/bin/riscv64-unknown-elf-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/usr/bin/riscv64-unknown-elf-gcc-ranlib")
-set(CMAKE_LINKER "/usr/bin/riscv64-unknown-elf-ld")
+set(CMAKE_AR "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-ar")
+set(CMAKE_CXX_COMPILER_AR "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gcc-ar")
+set(CMAKE_RANLIB "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gcc-ranlib")
+set(CMAKE_LINKER "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-ld")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -51,7 +51,7 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
 set(CMAKE_CXX_COMPILER_ABI "ELF")
 set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/lib/gcc/riscv64-unknown-elf/10.2.0/include;/usr/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/c++/10.2.0;/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/c++/10.2.0/riscv64-unknown-elf/rv32imac/ilp32;/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf/include/c++/10.2.0/backward;/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/10.2.0/include;/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/lib/gcc/riscv64-unknown-elf/10.2.0/include-fixed;/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/riscv64-unknown-elf/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -98,6 +98,7 @@
 #define configCLINT_BASE_ADDRESS            CLINT_CTRL_ADDR
 #define configUSE_PREEMPTION              1
 #define configCPU_CLOCK_HZ                265000000
+#define configISR_STACK_SIZE_WORDS        ( 500 )
 #ifdef D_CLOCK_RATE
    #define configRTC_CLOCK_HZ D_CLOCK_RATE      /* If the clock rate is already defined, take it here */
 #else
