@@ -30,6 +30,8 @@ target_include_directories(FreeRTOS_source PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/portable/GCC/RISC-V
     
 )
- 
+
+target_link_libraries(FreeRTOS_source PUBLIC psp)
+
 # add_subdirectory(CMSIS_RTOS_V2)
 

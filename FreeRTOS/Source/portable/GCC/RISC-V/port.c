@@ -68,7 +68,7 @@ stack that was used by main before the scheduler was started for use as the
 interrupt stack after the scheduler has started. */
 #ifdef configISR_STACK_SIZE_WORDS
 	static __attribute__ ((aligned(16))) StackType_t xISRStack[ configISR_STACK_SIZE_WORDS ] = { 0 };
-	const StackType_t xISRStackTop = ( StackType_t ) &( xISRStack[ configISR_STACK_SIZE_WORDS & ~portBYTE_ALIGNMENT_MASK ] );
+	StackType_t xISRStackTop; //= ( StackType_t ) &( xISRStack[ configISR_STACK_SIZE_WORDS & ~portBYTE_ALIGNMENT_MASK ] );
 
 	/* Don't use 0xa5 as the stack fill bytes as that is used by the kernerl for
 	the task stacks, and so will legitimately appear in many positions within
@@ -166,6 +166,8 @@ extern void xPortStartFirstTask( void );
 		started. */
 		configASSERT( ( xISRStackTop & portBYTE_ALIGNMENT_MASK ) == 0 );
 
+		xISRStackTop = ( StackType_t ) &( xISRStack[ configISR_STACK_SIZE_WORDS & ~portBYTE_ALIGNMENT_MASK ] ); //added by zarko
+		
 		#ifdef configISR_STACK_SIZE_WORDS
 		{
 			memset( ( void * ) xISRStack, portISR_STACK_FILL_BYTE, sizeof( xISRStack ) );

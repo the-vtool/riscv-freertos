@@ -8,6 +8,8 @@ set(FLAGS                           "-march=rv32imac -mabi=ilp32 -fdata-sections
 set(CPP_FLAGS                       "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
 set(TOOLCHAIN_PATH                  "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin")
 
+# "/home/zarko/.platformio/packages/toolchain-riscv/bin"
+
 # Define compiler settings
 set(CMAKE_C_COMPILER                ${TOOLCHAIN_PATH}/${TOOLCHAIN_PREFIX}gcc)
 # string(APPEND CMAKE_C_COMPILER " ${FLAGS}")
@@ -71,6 +73,8 @@ set(symbols_SYMB
     "D_TIMER_ACTIVATION_ADDRESS=0x80001034"
     "D_NMI_VEC_ADDRESSS=0x8000100C"
     "__riscv_xlen=32"
+    "portasmHANDLE_INTERRUPT=pspExtIntHandler"
+    
     
     # "USE_HAL_DRIVER"
     # "STM32H743xx"

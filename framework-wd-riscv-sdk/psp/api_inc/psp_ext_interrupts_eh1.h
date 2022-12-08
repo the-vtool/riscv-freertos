@@ -249,6 +249,8 @@ u32_t pspExtInterruptGetClaimId(void);
 */
 u32_t pspExtInterruptGetPriority(void);
 
+void pspExtIntHandler(u32_t cause);
+
 
 
 #endif /* __PSP_EXT_INTERRUPTS_EH1_H__ */

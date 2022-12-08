@@ -27,6 +27,8 @@
 * include files
 */
 #include "psp_api.h"
+#include "psp_ext_interrupts_eh1.h"
+
 
 /**
 * definitions
@@ -411,7 +413,6 @@ D_PSP_TEXT_SECTION void pspExtInterruptIsr(void)
  * @brief Added by Zarko for freertos port
  * 
  */
-
 D_PSP_TEXT_SECTION void pspExtIntHandler(u32_t cause)
 {
   pspExtInterruptIsr();
