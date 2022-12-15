@@ -72,6 +72,9 @@ target_link_libraries(${EXECUTABLE} bsp
                                     #common
                                     FreeRTOS_source)  
 
+target_compile_options(${EXECUTABLE} PUBLIC "-march=rv32imac")
+target_compile_options(${EXECUTABLE} PUBLIC "-mabi=ilp32")
+target_compile_options(${EXECUTABLE} PUBLIC "-mcmodel=medlow")
 
 # Execute post-build to print size
 add_custom_command(TARGET ${EXECUTABLE} POST_BUILD

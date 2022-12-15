@@ -38,7 +38,7 @@
         {
             "type": "shell", //CHANAGE THIS
             "label": "Flash project",
-            "command": "/usr/local/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
+            "command": "/home/zarko/.platformio/packages/tool-openocd-riscv-chipsalliance/bin/openocd_bin", //"/usr/local/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
             "args": [
                 "--connect",
                 "port=swd",
@@ -67,6 +67,7 @@
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
-        }
+        },
+        
     ]
 }

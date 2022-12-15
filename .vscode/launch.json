@@ -2,37 +2,55 @@
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug",
-            "executable": "/home/zarko/Desktop/projects/riscv-freertos/.pio/build/swervolf_nexys/firmware.elf",
-            "projectEnvName": "swervolf_nexys",
-            "toolchainBinDir": "/home/zarko/.platformio/packages/toolchain-riscv/bin",
-            "internalConsoleOptions": "openOnSessionStart",
-            "preLaunchTask": {
-                "type": "PlatformIO",
-                "task": "Pre-Debug"
-            }
-        },
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/zarko/Desktop/projects/riscv-freertos/.pio/build/swervolf_nexys/firmware.elf",
-            "projectEnvName": "swervolf_nexys",
-            "toolchainBinDir": "/home/zarko/.platformio/packages/toolchain-riscv/bin",
-            "internalConsoleOptions": "openOnSessionStart"
-        },
-        {
-            "type": "platformio-debug",
-            "request": "launch",
-            "name": "PIO Debug (without uploading)",
-            "executable": "/home/zarko/Desktop/projects/riscv-freertos/.pio/build/swervolf_nexys/firmware.elf",
-            "projectEnvName": "swervolf_nexys",
-            "toolchainBinDir": "/home/zarko/.platformio/packages/toolchain-riscv/bin",
-            "internalConsoleOptions": "openOnSessionStart",
-            "loadMode": "manual"
-        }
+        
+
+        // { //FILL THIS
+        //     "cwd": "${workspaceRoot}",
+        //     "executable": "./bin/executable.elf",
+        //     "name": "Debug with OpenOCD",
+        //     "request": "launch",
+        //     "type": "cortex-debug",
+        //     "servertype": "openocd",
+        //     "configFiles": [],
+        //     "searchDir": [],
+        //     "runToEntryPoint": "main",
+        //     "showDevDebugOutput": "none",
+        //     "gdbPath": //-f interface/stlink.cfg""
+        // }
+        // {
+        //     "name": "Debug-RISC-V",
+        //     "type": "cppdbg",
+        //     "request": "launch",
+        //     "program": "${workspaceRoot}/build/riscv_freertos.elf",
+        //     "args": [],
+        //     "stopAtEntry": true,
+        //     "cwd": "${workspaceRoot}",
+        //     "environment": [],
+        //     "externalConsole": false,
+        //     "debugServerArgs": "-f /home/zarko/.platformio/packages/framework-wd-riscv-sdk/board/nexys_a7_eh1/openocd.cfg -f /home/zarko/.platformio/packages/framework-wd-riscv-sdk/board/nexys_a7_eh1/swervolf_nexys_eh1_debug.cfg",
+        //     "serverLaunchTimeout": 20000,
+        //     "filterStderr": true,
+        //     "filterStdout": false,
+        //     "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
+        //     "setupCommands": [
+        //         // { "text": "cd ${workspaceRoot}/build" },
+        //         // { "text": "file debug/app/basic/basic.elf", "description": "load file", "ignoreFailures": false},
+        //         { "text": "target extended-remote localhost:3333", "description": "connect to target", "ignoreFailures": false },
+        //         { "text": "monitor reset halt", "description": "perform a reset and halt the target", "ignoreFailures": false },
+        //         { "text": "load", "description": "flash target", "ignoreFailures": false },
+        //         { "text": "monitor reset init", "description": "perform a reset and init the target", "ignoreFailures": false },
+        //         { "text": "set output-radix 16", "description": "set the default numeric base to 16", "ignoreFailures": false }
+        //     ],
+        //     "logging": {
+        //         "moduleLoad": true,
+        //         "trace": true,
+        //         "engineLogging": true,
+        //         "programOutput": true,
+        //         "exceptions": true
+        //     },
+        //     "MIMode": "gdb",
+        //     "miDebuggerPath": "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gdb",
+        //     "debugServerPath": "/home/zarko/.platformio/packages/tool-openocd-riscv-chipsalliance/bin/openocd_bin"
+        // }
     ]
 }

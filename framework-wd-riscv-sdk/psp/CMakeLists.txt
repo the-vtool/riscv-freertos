@@ -36,5 +36,8 @@ target_include_directories(psp PUBLIC
     #this include is needed for cmsis because it depends on stm32h7xx_hal.h file
     # ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc
 ) 
-  
+
+target_compile_options(psp PUBLIC "-march=rv32imac")
+target_compile_options(psp PUBLIC "-mabi=ilp32")
+target_compile_options(psp PUBLIC "-mcmodel=medlow")
 # target_include_directories(cmsis PRIVATE  ${CMAKE_SOURCE_DIR}/Drivers/STM32H7xx_HAL_Driver/Inc)       
