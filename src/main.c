@@ -54,8 +54,12 @@ int main_blinky( void )
 {
 	// vSendString( "Hello FreeRTOS!" );
 	int i = 0;
-	i++;
-
+	int a = 0;
+	while(1)
+	{
+		i++;
+		a = a + i;
+	}
 	/* Create the queue. */
 	// xQueue = xQueueCreate( mainQUEUE_LENGTH, sizeof( unsigned long ) );
 
