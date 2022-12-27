@@ -52,5 +52,38 @@
         //     "miDebuggerPath": "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin/riscv64-unknown-elf-gdb",
         //     "debugServerPath": "/home/zarko/.platformio/packages/tool-openocd-riscv-chipsalliance/bin/openocd_bin"
         // }
+
+        {
+            "cwd": "${workspaceRoot}/",
+            "executable": "./Build/ARM-Debug/Output/Bin/CMSIS_CAN_TEST",
+            "armToolchainPath": "${HOME}/toolchains/gcc-arm-none-eabi-8-2019-q3-update/",
+            "gdbPath": "${HOME}/toolchains/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gdb",
+            "name": "CMSIS-CAN-TEST",
+            "request": "attach",
+            "type": "cortex-debug",
+            "servertype": "jlink",
+            "device": "Cortex-M33",
+            "showDevDebugOutput": "both",
+            "postAttachCommands": [
+                "mon reset halt",
+                "enable breakpoint",
+                "load ./Build/ARM-Debug/Output/Bin/CMSIS_CAN_TEST",
+                "mon reset",
+                "set $pc=V_Handlers_RESET_handler",
+                "set $sp=*0x10000000",
+                "set $msplim=0x0",
+                "set {int}0xE000ED08=0x10000000",
+            ],
+            "postRestartCommands": [
+                "mon reset halt",
+                "enable breakpoint",
+                "load ./Build/ARM-Debug/Output/Bin/CMSIS_CAN_TEST",
+                "mon reset",
+                "set $pc=V_Handlers_RESET_handler",
+                "set $sp=*0x10000000",
+                "set $msplim=0x0",
+                "set {int}0xE000ED08=0x10000000",
+            ]
+        },
     ]
 }

@@ -58,7 +58,7 @@ D_PSP_TEXT_SECTION void pspDefaultEmptyIntHandler_isr(void);
   #error "D_ISR_STACK_SIZE is not defined"
 #else
   static /*D_PSP_DATA_SECTION*/ D_PSP_ALIGNED(16) pspStack_t udISRStack[ D_ISR_STACK_SIZE ] ;
-  // const pspStack_t xISRStackTop = ( pspStack_t ) &( udISRStack[ ( D_ISR_STACK_SIZE ) - 1 ] ); //THIS MAY CAUSE BUGS, but this xISRStackTop is defined also in port.c
+  // const pspStack_t xISRStackTop = ( pspStack_t ) &( udISRStack[ ( D_ISR_STACK_SIZE ) - 1 ] ); //THIS MAY CAUSE BUGS, but this xISRStackTop is defined also in port.c ADDED BY ZARKO
 #endif
 
 /* Exception handlers */

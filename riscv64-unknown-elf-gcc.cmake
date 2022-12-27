@@ -6,7 +6,7 @@ set(CMAKE_SYSTEM_PROCESSOR          rv32imac)
 set(TOOLCHAIN_PREFIX                riscv64-unknown-elf-)
 set(FLAGS                           "-march=rv32imac -mabi=ilp32 -mcmodel=medlow -fdata-sections -ffunction-sections -Wl,--gc-sections ")
 set(CPP_FLAGS                       "-march=rv32imac -mabi=ilp32 -mcmodel=medlow -fno-rtti -fno-exceptions -fno-threadsafe-statics")
-set(TOOLCHAIN_PATH                  "/home/zarko/.platformio/packages/toolchain-riscv/bin")
+set(TOOLCHAIN_PATH                  "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin")
 
 # "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin /home/zarko/.platformio/packages/toolchain-riscv/bin"
 
@@ -42,7 +42,7 @@ if( NOT C_FLAGS_INITIALIZED )
 
     # Overwrite CMake's defaults... 
 
-    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb")
+    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g2 -ggdb2") #-Og -g3 -ggdb OLD FLAGS
     string(APPEND CMAKE_CXX_FLAGS       "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
     # set( CMAKE_C_FLAGS_DEBUG          "-g -DDEBUG")
     # set( CMAKE_C_FLAGS_RELEASE        "-O3 -DNDEBUG" )
