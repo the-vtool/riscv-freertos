@@ -66,7 +66,7 @@ target_include_directories(${EXECUTABLE} PRIVATE ${include_path_DIRS})
 # Link builded library FreeRTOS Middleware    
 target_link_libraries(${EXECUTABLE} bsp 
                                     psp
-                                   )  
+                                   ) 
 
 #target_compile_options(${EXECUTABLE} PUBLIC "-march=rv32imac")
 #target_compile_options(${EXECUTABLE} PUBLIC "-mabi=ilp32")

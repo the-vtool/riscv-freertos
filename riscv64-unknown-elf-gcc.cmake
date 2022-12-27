@@ -42,9 +42,9 @@ if( NOT C_FLAGS_INITIALIZED )
 
     # Overwrite CMake's defaults... 
 
-    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g2 -ggdb2") #-Og -g3 -ggdb OLD FLAGS
+    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb3") #-Og -g3 -ggdb OLD FLAGS
     string(APPEND CMAKE_CXX_FLAGS       "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
-    # set( CMAKE_C_FLAGS_DEBUG          "-g -DDEBUG")
+    # set( CMAKE_C_FLAGS_DEBUG            "-g -DDEBUG")
     # set( CMAKE_C_FLAGS_RELEASE        "-O3 -DNDEBUG" )
     # set( CMAKE_C_FLAGS_MINSIZEREL     "${CMAKE_C_FLAGS_RELEASE}" )
     # set( CMAKE_C_FLAGS_RELWITHDEBINFO "-O3 -g -gdwarf-3" )
@@ -89,7 +89,7 @@ set(symbols_SYMB
 #
 add_compile_definitions(${symbols_SYMB})
 
-set(CMAKE_C_FLAGS            "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g2 -ggdb2")
+set(CMAKE_C_FLAGS            "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb")
 set(CMAKE_CXX_FLAGS          "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
 set(CMAKE_EXE_LINKER_FLAGS   "-T${linker_script_SRC} ${CPU_PARAMETERS} -Wl,-Map=${CMAKE_PROJECT_NAME}.map -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,--print-memory-usage")
 

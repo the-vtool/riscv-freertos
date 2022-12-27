@@ -38,7 +38,7 @@
         {
             "type": "shell", //CHANAGE THIS
             "label": "Flash project",
-            "command": "openocd -f /home/zarko/.platformio/packages/framework-wd-riscv-sdk/board/nexys_a7_eh1/swervolf_nexys_eh1_debug.cfg -c \"init;load_image {/home/zarko/Desktop/projects/riscv-vscode/build/riscv_vscode.bin} 0x08000000;reset;exit\"", //"/usr/local/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
+            "command": "openocd -f /home/zarko/.platformio/packages/framework-wd-riscv-sdk/board/nexys_a7_eh1/swervolf_nexys_eh1_debug.cfg -c \"init;load_image {/home/zarko/Desktop/projects/riscv-vscode/build/riscv_vscode.elf};reset;exit\"", //"/usr/local/STMicroelectronics/STM32Cube/STM32CubeProgrammer/bin/STM32_Programmer_CLI",
             "args": [
 
             ],
