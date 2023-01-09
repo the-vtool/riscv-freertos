@@ -54,7 +54,7 @@ set(include_path_DIRS
 # Adding subdirectories
 #
 
-add_subdirectory(wd-riscv-sdk) 
+add_subdirectory(wd_riscv_sdk) 
  
 
 # Executable files 
@@ -63,10 +63,12 @@ add_executable(${EXECUTABLE} ${sources_SRCS})
 # Include paths
 target_include_directories(${EXECUTABLE} PRIVATE ${include_path_DIRS})
 
-# Link builded library FreeRTOS Middleware    
+# Link builded library  
 target_link_libraries(${EXECUTABLE} bsp 
-                                    psp
-                                   ) 
+                                    #psp
+                                   )
+
+# target_link_directories(${EXECUTABLE}  PRIVATE wd_riscv_sdk)
 
 #target_compile_options(${EXECUTABLE} PUBLIC "-march=rv32imac")
 #target_compile_options(${EXECUTABLE} PUBLIC "-mabi=ilp32")

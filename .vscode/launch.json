@@ -15,7 +15,7 @@
             "environment": [],
             "externalConsole": false,
             "debugServerArgs": "-s /home/zarko/.platformio/packages/tool-openocd-riscv-chipsalliance/share/openocd/scripts -f /home/zarko/.platformio/packages/framework-wd-riscv-sdk/board/nexys_a7_eh1/swervolf_nexys_eh1_debug.cfg -c \"reset init\"",
-            "serverLaunchTimeout": 10000,
+            "serverLaunchTimeout": 15000,
             "filterStderr": true,
             "filterStdout": false,
             "serverStarted": "",
@@ -24,7 +24,7 @@
                 { "text": "file riscv_vscode.elf", "description": "load file", "ignoreFailures": false},
                 { "text": "symbol-file riscv_vscode.elf", "description": "load file", "ignoreFailures": false},
                 { "text": "target extended-remote localhost:3333", "description": "connect to target", "ignoreFailures": false },
-                { "text": "monitor reset halt", "description": "perform a reset and halt the target", "ignoreFailures": false },
+                //{ "text": "monitor reset halt", "description": "perform a reset and halt the target", "ignoreFailures": false },
                 { "text": "load", "description": "flash target", "ignoreFailures": false },
                 { "text": "monitor reset init", "description": "perform a reset and init the target", "ignoreFailures": false },
                 // { "text": "set output-radix 16", "description": "set the default numeric base to 16", "ignoreFailures": false }

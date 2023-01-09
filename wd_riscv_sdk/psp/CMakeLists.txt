@@ -26,9 +26,11 @@ ${CMAKE_CURRENT_SOURCE_DIR}/psp_version.c
 
 target_include_directories(psp PUBLIC   
 	${CMAKE_CURRENT_SOURCE_DIR}/api_inc
-	${PROJ_PATH}/wd-riscv-sdk/common/api_inc
+	${PROJ_PATH}/wd_riscv_sdk/common/api_inc
 ) 
 
 target_compile_options(psp PUBLIC "-march=rv32imac")
 target_compile_options(psp PUBLIC "-mabi=ilp32")
-target_compile_options(psp PUBLIC "-mcmodel=medlow")     
+target_compile_options(psp PUBLIC "-mcmodel=medlow")
+
+

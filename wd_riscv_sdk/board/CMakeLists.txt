@@ -9,8 +9,10 @@ ${CMAKE_CURRENT_SOURCE_DIR}/nexys_a7_eh1/bsp/bsp_version.c)
 
 target_include_directories(bsp PUBLIC   
 	${CMAKE_CURRENT_SOURCE_DIR}/nexys_a7_eh1/bsp
-	${PROJ_PATH}/wd-riscv-sdk/common/api_inc
+	${PROJ_PATH}/wd_riscv_sdk/common/api_inc
 ) 
 
 target_link_libraries(bsp PUBLIC psp)
+
+
 

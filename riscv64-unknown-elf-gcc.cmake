@@ -4,8 +4,8 @@ set(CMAKE_SYSTEM_PROCESSOR          rv32imac)
 # Some default GCC settings
 # arm-none-eabi- must be part of path environment
 set(TOOLCHAIN_PREFIX                riscv64-unknown-elf-)
-set(FLAGS                           "-march=rv32imac -mabi=ilp32 -mcmodel=medlow -fdata-sections -ffunction-sections -Wl,--gc-sections ")
-set(CPP_FLAGS                       "-march=rv32imac -mabi=ilp32 -mcmodel=medlow -fno-rtti -fno-exceptions -fno-threadsafe-statics")
+set(FLAGS                           "-fdata-sections -ffunction-sections -Wl,--gc-sections ")
+set(CPP_FLAGS                       "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
 set(TOOLCHAIN_PATH                  "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin")
 
 # "/home/zarko/riscv64-unknown-elf-toolchain-10.2.0-2020.12.8-x86_64-linux-ubuntu14/bin /home/zarko/.platformio/packages/toolchain-riscv/bin"
@@ -34,7 +34,7 @@ set(linker_script_SRC               ${CMAKE_CURRENT_SOURCE_DIR}/link.lds)
 # for picolibc.specs
 # sudo apt install picolibc-riscv64-unknown-elf
 # riscv64-unknown-elf-gcc -specs=picolibc.specs -march=rv32imac -mabi=ilp32 -c test.c -m elf32lriscv   -march=rv32imac -mabi=ilp32 -mcmodel=medlow 
-set(CPU_PARAMETERS "-march=rv32imac -mabi=ilp32 -mcmodel=medlow")
+set(CPU_PARAMETERS "-march=rv32imac -mabi=ilp32 -mcmodel=medlow -Og -g3 -ggdb3")
 
 if( NOT C_FLAGS_INITIALIZED )
     # only do this on the first pass through to avoid overwriting user added options.
@@ -42,7 +42,7 @@ if( NOT C_FLAGS_INITIALIZED )
 
     # Overwrite CMake's defaults... 
 
-    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb3") #-Og -g3 -ggdb OLD FLAGS
+    string(APPEND CMAKE_C_FLAGS         "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter") #-Og -g3 -ggdb OLD FLAGS
     string(APPEND CMAKE_CXX_FLAGS       "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
     # set( CMAKE_C_FLAGS_DEBUG            "-g -DDEBUG")
     # set( CMAKE_C_FLAGS_RELEASE        "-O3 -DNDEBUG" )
@@ -89,9 +89,10 @@ set(symbols_SYMB
 #
 add_compile_definitions(${symbols_SYMB})
 
-set(CMAKE_C_FLAGS            "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb")
+set(CMAKE_C_FLAGS            "${CPU_PARAMETERS} -Wall -Wextra -Wpedantic -Wno-unused-parameter")
 set(CMAKE_CXX_FLAGS          "-fno-rtti -fno-exceptions -fno-threadsafe-statics")
 set(CMAKE_EXE_LINKER_FLAGS   "-T${linker_script_SRC} ${CPU_PARAMETERS} -Wl,-Map=${CMAKE_PROJECT_NAME}.map -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group -Wl,--print-memory-usage")
+#set(CMAKE_C_FLAGS_DEBUG     "-g -DDEBUG")
 
 # Save the current compiler flags to the cache every time cmake configures the project.
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}" CACHE STRING "compiler flags" FORCE)
