@@ -70,10 +70,6 @@ target_link_libraries(${EXECUTABLE} bsp
 
 # target_link_directories(${EXECUTABLE}  PRIVATE wd_riscv_sdk)
 
-#target_compile_options(${EXECUTABLE} PUBLIC "-march=rv32imac")
-#target_compile_options(${EXECUTABLE} PUBLIC "-mabi=ilp32")
-#target_compile_options(${EXECUTABLE} PUBLIC "-mcmodel=medlow")
-
 # Execute post-build to print size
 add_custom_command(TARGET ${EXECUTABLE} POST_BUILD
     COMMAND ${CMAKE_SIZE} $<TARGET_FILE:${EXECUTABLE}>
