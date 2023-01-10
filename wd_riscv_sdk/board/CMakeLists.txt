@@ -10,11 +10,7 @@ ${CMAKE_CURRENT_SOURCE_DIR}/nexys_a7_eh1/bsp/bsp_version.c)
 target_include_directories(bsp PUBLIC   
 	${CMAKE_CURRENT_SOURCE_DIR}/nexys_a7_eh1/bsp
 	${PROJ_PATH}/wd_riscv_sdk/common/api_inc
-) 
-
-target_compile_options(bsp PUBLIC "-Og")
-target_compile_options(bsp PUBLIC "-g3")
-target_compile_options(bsp PUBLIC "-ggdb3")
+)
 
 target_link_libraries(bsp PUBLIC psp)
 

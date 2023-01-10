@@ -33,8 +33,5 @@ target_compile_options(psp PUBLIC "-march=rv32imac")
 target_compile_options(psp PUBLIC "-mabi=ilp32")
 target_compile_options(psp PUBLIC "-mcmodel=medlow")
 
-target_compile_options(psp PUBLIC "-Og")
-target_compile_options(psp PUBLIC "-g3")
-target_compile_options(psp PUBLIC "-ggdb3")
 
 
