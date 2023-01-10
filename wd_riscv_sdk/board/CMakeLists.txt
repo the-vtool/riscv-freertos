@@ -12,6 +12,10 @@ target_include_directories(bsp PUBLIC
 	${PROJ_PATH}/wd_riscv_sdk/common/api_inc
 ) 
 
+target_compile_options(bsp PUBLIC "-Og")
+target_compile_options(bsp PUBLIC "-g3")
+target_compile_options(bsp PUBLIC "-ggdb3")
+
 target_link_libraries(bsp PUBLIC psp)
 
 
