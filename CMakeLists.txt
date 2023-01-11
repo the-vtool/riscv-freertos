@@ -54,7 +54,8 @@ set(include_path_DIRS
 # Adding subdirectories
 #
 
-add_subdirectory(wd_riscv_sdk) 
+add_subdirectory(wd_riscv_sdk)
+add_subdirectory(FreeRTOS/Source)
  
 
 # Executable files 
@@ -65,6 +66,7 @@ target_include_directories(${EXECUTABLE} PRIVATE ${include_path_DIRS})
 
 # Link builded library  
 target_link_libraries(${EXECUTABLE} bsp 
+                                    FreeRTOS_source
                                     #psp
                                    )
 
