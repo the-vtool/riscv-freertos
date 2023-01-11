@@ -109,7 +109,7 @@
 #else
    #define configTICK_RATE_HZ                250
 #endif
-#define configMAX_PRIORITIES                3
+#define configMAX_PRIORITIES                32
 #define configMINIMAL_STACK_SIZE            450 /* [NR] To-do check why in new config it is set to 2*70 */
 #define configMAX_TASK_NAME_LEN             16
 #define configUSE_16_BIT_TICKS              0

@@ -257,5 +257,6 @@ void pspDisableInterruptNumberUserLevel(u32_t uiInterruptNumber);
 */
 void pspEnableInterruptNumberUserLevel(u32_t uiInterruptNumber);
 
+void externalInterruptHandler(u32_t cause);
 
 #endif /* __PSP_INTERRUPTS_EH1_H__ */

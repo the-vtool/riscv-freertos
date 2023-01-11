@@ -58,7 +58,7 @@ D_PSP_TEXT_SECTION void pspDefaultEmptyIntHandler_isr(void);
   #error "D_ISR_STACK_SIZE is not defined"
 #else
   static /*D_PSP_DATA_SECTION*/ D_PSP_ALIGNED(16) pspStack_t udISRStack[ D_ISR_STACK_SIZE ] ;
-  const pspStack_t xISRStackTop = ( pspStack_t ) &( udISRStack[ ( D_ISR_STACK_SIZE ) - 1 ] );
+  //const pspStack_t xISRStackTop = ( pspStack_t ) &( udISRStack[ ( D_ISR_STACK_SIZE ) - 1 ] );
 #endif
 
 /* Exception handlers */
@@ -421,4 +421,9 @@ D_PSP_TEXT_SECTION void pspEnableInterruptNumberUserLevel(u32_t uiInterruptNumbe
                (D_PSP_INTERRUPTS_USER_EXT   == uiInterruptNumber));
 
   M_PSP_SET_CSR(D_PSP_UIE_NUM, M_PSP_BIT_MASK(uiInterruptNumber));
+}
+
+void externalInterruptHandler(u32_t cause)
+{
+    pspDefaultExceptionIntHandler_isr();
 }
