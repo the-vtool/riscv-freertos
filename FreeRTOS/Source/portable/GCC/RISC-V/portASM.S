@@ -60,6 +60,7 @@
 	#define portWORD_SIZE 8
 	#define store_x sd
 	#define load_x ld
+	#error 	riscv_xlen is set to 64, added by zarko
 #elif __riscv_xlen == 32
 	#define store_x sw
 	#define load_x lw

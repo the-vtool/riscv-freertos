@@ -72,6 +72,7 @@ set(symbols_SYMB
     "D_TIMER_DURATION_SETUP_ADDRESS=0x80001030"
     "D_TIMER_ACTIVATION_ADDRESS=0x80001034"
     "D_NMI_VEC_ADDRESSS=0x8000100C"
+    "portasmHANDLE_INTERRUPT=pspExtIntHandler"
         
     #"__riscv_xlen=32" #even if I set -march=rv32imac -mabi=ilp32 this macro is not given by compiler
     # "USE_HAL_DRIVER"

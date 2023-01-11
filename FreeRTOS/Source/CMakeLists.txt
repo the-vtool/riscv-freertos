@@ -33,5 +33,9 @@ target_include_directories(FreeRTOS_source PUBLIC
 
 target_link_libraries(FreeRTOS_source PUBLIC psp)
 
+target_compile_options(FreeRTOS_source PUBLIC "-march=rv32imac")
+target_compile_options(FreeRTOS_source PUBLIC "-mabi=ilp32")
+target_compile_options(FreeRTOS_source PUBLIC "-mcmodel=medlow")
+
 # add_subdirectory(CMSIS_RTOS_V2)
 
